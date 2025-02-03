@@ -1,0 +1,15 @@
+version: "2.4"
+
+services:
+  workspace:
+    image: "solid"
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    container_name: "SOLID"
+    working_dir: /var/www/html
+    ports:
+      - "8900:80"
+    volumes:
+      - .:/var/www/html
+    restart: on-failure
