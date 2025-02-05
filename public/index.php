@@ -1,2 +1,4 @@
 <?php
-echo 123;
+
+require_once '../SOLID/SRP/index.php';
+
