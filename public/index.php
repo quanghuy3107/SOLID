@@ -6,4 +6,6 @@
 
 //require_once '../SOLID/LSP/index.php';
 
-require_once '../SOLID/ISP/index.php';
+//require_once '../SOLID/ISP/index.php';
+
+require_once '../SOLID/DIP/index.php';
